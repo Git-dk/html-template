@@ -1,0 +1,93 @@
+/* @font-face {
+    font-family: 'poppinsregular';
+    src: url('../font/poppins-regular-webfont.woff2') format('woff2'), url('../font/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap');
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+/* html {
+    font-size: 10px;
+} */
+
+a {
+    color: #29204B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3b8af2;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* button animation and hover effects */
+
+button {
+    transition: all linear 0.5s;
+}
+
+button:hover {
+    color: #ffffff;
+    background: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+
+/* img width/height always in px for handling responsiveness */
+
+ul li {
+    padding: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0px;
+}
+
+
+/* Responsive codes here */
+
+
+/* Will work on 320px itself and above that till 992px not greater that 992px */
+
+@media only screen and (min-width: 320px) and (max-width:992px) {
+    /* html {
+        font-size: 8px;
+    } */
+}
+
+
+/* Not use max-width frequently */
+
+@media only screen and (max-width:1200px) {}
+
+
+/* Responsive code ends */
