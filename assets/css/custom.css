@@ -87,7 +87,11 @@ ol {
 
 /* Not use max-width frequently */
 
-@media only screen and (max-width:1200px) {}
+@media only screen and (max-width:1200px) {
+    .cs {
+        display: block;
+    }
+}
 
 
 /* Responsive code ends */
